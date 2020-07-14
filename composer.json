@@ -23,7 +23,7 @@
                 "Rider\\Autonavigation\\AutoNavigationServiceProvider"
             ],
             "aliases": {
-                "Datagun": "Rider\\Autonavigation\\Facade"
+                "Autonavigation": "Rider\\Autonavigation\\Facade"
             }
         }
     }   
