@@ -1,0 +1,31 @@
+{
+    "name": "rider/autonavigation",
+    "description": "This package is a wrapper for Autonavigation REST API",
+    "authors": [
+        {
+            "name": "Lorenzo Ravano",
+            "email": "l.ravano88@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "~6.0"        
+    }, 
+    "autoload": {
+        "psr-4": {
+            "Rider\\Autonavigation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rider\\Autonavigation\\AutoNavigationServiceProvider"
+            ],
+            "aliases": {
+                "Datagun": "Rider\\Autonavigation\\Facade"
+            }
+        }
+    }   
+
+}
